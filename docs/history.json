@@ -1,0 +1,11 @@
+[
+  {
+    "date": "2026-10-16T12:53:57.459Z",
+    "total": 78,
+    "passed": 78,
+    "failed": 0,
+    "flaky": 0,
+    "durationMs": 126745,
+    "appCommit": "3e12dee"
+  }
+]

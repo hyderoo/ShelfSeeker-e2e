@@ -1,0 +1,6 @@
+node_modules
+.app
+results
+test-results
+playwright-report
+app-commit.txt

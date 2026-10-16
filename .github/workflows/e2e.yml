@@ -1,0 +1,53 @@
+name: e2e
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      app_ref:
+        description: ShelfSeeker branch or tag to test
+        default: improve/search-errors-export
+  schedule:
+    - cron: '0 2 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: e2e-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      CI: 'true'
+      APP_REF: ${{ github.event.inputs.app_ref || vars.APP_REF || 'improve/search-errors-export' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: bash scripts/build-app.sh
+      - run: npx playwright test
+      - name: Restore trend history
+        if: always()
+        run: mkdir -p docs && (curl -sfL https://raw.githubusercontent.com/${{ github.repository }}/gh-pages/history.json -o docs/history.json || true)
+      - name: Build dashboard
+        if: always()
+        run: node scripts/build-dashboard.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: e2e-report
+          path: |
+            docs
+            results/html
+      - name: Publish dashboard to the gh-pages branch
+        if: always() && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          cp -r docs /tmp/site && touch /tmp/site/.nojekyll
+          git checkout --orphan gh-pages && git rm -rf . -q && cp -r /tmp/site/. . && git add -A
+          git commit -qm "Dashboard for ${GITHUB_SHA::7}" && git push -f origin gh-pages

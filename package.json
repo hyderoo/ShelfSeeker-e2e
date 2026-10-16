@@ -1,0 +1,20 @@
+{
+  "name": "shelfseeker-e2e",
+  "version": "1.0.0",
+  "description": "Playwright end-to-end tests and report dashboard for ShelfSeeker",
+  "scripts": {
+    "build:app": "bash scripts/build-app.sh",
+    "test": "playwright test",
+    "test:local": "PW_CHANNEL=chrome playwright test",
+    "dashboard": "node scripts/build-dashboard.mjs",
+    "report": "npm run test; npm run dashboard",
+    "install:browsers": "playwright install --with-deps chromium"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5",
+    "serve": "^14.2.6",
+    "typescript": "^7.0.2"
+  },
+  "private": true
+}
