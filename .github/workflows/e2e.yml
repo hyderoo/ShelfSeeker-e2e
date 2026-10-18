@@ -26,6 +26,8 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 20, cache: npm }
+      - uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: "17" }
       - run: npm ci
       - run: npx playwright install --with-deps chromium
       - run: bash scripts/build-app.sh
@@ -36,6 +38,9 @@ jobs:
       - name: Build dashboard
         if: always()
         run: node scripts/build-dashboard.mjs
+      - name: Build Allure report
+        if: always()
+        run: npx allure-commandline generate results/allure -o docs/allure --clean
       - uses: actions/upload-artifact@v4
         if: always()
         with:

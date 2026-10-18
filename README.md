@@ -4,6 +4,8 @@ Playwright end-to-end tests and a results dashboard for [ShelfSeeker](https://gi
 
 **Latest sample report:** `docs/index.html` (open it in a browser). When the CI workflow runs on `main` it publishes the same dashboard to the `gh-pages` branch (enable GitHub Pages for that branch to get a URL).
 
+**Allure report:** every CI run also builds a full [Allure](https://allurereport.org/) report into `docs/allure` (published alongside the dashboard). Run data and flakiness tracking are analyzed in [docs/flaky-analysis.md](docs/flaky-analysis.md).
+
 ## What is tested
 
 78 test runs = 39 tests x 2 projects (desktop Chrome, Pixel 7 emulation):
