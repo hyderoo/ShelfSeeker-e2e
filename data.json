@@ -1,0 +1,1155 @@
+{
+  "summary": {
+    "total": 78,
+    "passed": 78,
+    "failed": 0,
+    "flaky": 0,
+    "skipped": 0,
+    "durationMs": 148354,
+    "date": "2026-10-31T07:53:25.800Z",
+    "passRate": 100
+  },
+  "meta": {
+    "appCommit": "3f909d9a773858f39e76fbbb193cab23009fabbb",
+    "appRef": "improve/search-errors-export",
+    "playwright": "1.64.1",
+    "runId": "41182325139"
+  },
+  "tests": [
+    {
+      "file": "detail-isbn-theme.spec.ts",
+      "title": "search result -> detail page with description, subjects and similar books",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 2907,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "detail-isbn-theme.spec.ts",
+      "title": "ISBN lookup shows the edition details",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 3053,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "detail-isbn-theme.spec.ts",
+      "title": "barcode scan without BarcodeDetector support shows an honest notice",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 2752,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "detail-isbn-theme.spec.ts",
+      "title": "author search shows birth date and top book when expanded",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 2800,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "detail-isbn-theme.spec.ts",
+      "title": "typing an author name does not show \"not found\" before searching",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 2787,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "detail-isbn-theme.spec.ts",
+      "title": "dark mode toggle switches the theme and is remembered after reload",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 5297,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "detail-isbn-theme.spec.ts",
+      "title": "every bottom-nav page loads without a crash",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 2998,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "detail-isbn-theme.spec.ts",
+      "title": "search result -> detail page with description, subjects and similar books",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 2975,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "detail-isbn-theme.spec.ts",
+      "title": "ISBN lookup shows the edition details",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 3101,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "detail-isbn-theme.spec.ts",
+      "title": "barcode scan without BarcodeDetector support shows an honest notice",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 2901,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "detail-isbn-theme.spec.ts",
+      "title": "author search shows birth date and top book when expanded",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 2958,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "detail-isbn-theme.spec.ts",
+      "title": "typing an author name does not show \"not found\" before searching",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 2894,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "detail-isbn-theme.spec.ts",
+      "title": "dark mode toggle switches the theme and is remembered after reload",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 5322,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "detail-isbn-theme.spec.ts",
+      "title": "every bottom-nav page loads without a crash",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 3189,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "errors.spec.ts",
+      "title": "search server error shows a message and Try again recovers",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 2821,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "errors.spec.ts",
+      "title": "network failure shows a connection message",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 2718,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "errors.spec.ts",
+      "title": "a slow search shows a \"responding slowly\" notice and then the results",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 8333,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "errors.spec.ts",
+      "title": "failure while loading more keeps the books already shown",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 2603,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "errors.spec.ts",
+      "title": "book detail error offers Try again instead of an endless spinner",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 2651,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "errors.spec.ts",
+      "title": "unknown book id says it was not found",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 2544,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "errors.spec.ts",
+      "title": "going offline shows the offline banner and an offline-specific search error",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 2824,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "errors.spec.ts",
+      "title": "ISBN: not in catalogue vs lookup failure are different messages",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 2811,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "errors.spec.ts",
+      "title": "author search: empty result and failure are both explained",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 2827,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "errors.spec.ts",
+      "title": "search server error shows a message and Try again recovers",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 3017,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "errors.spec.ts",
+      "title": "network failure shows a connection message",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 2866,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "errors.spec.ts",
+      "title": "a slow search shows a \"responding slowly\" notice and then the results",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 8527,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "errors.spec.ts",
+      "title": "failure while loading more keeps the books already shown",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 2764,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "errors.spec.ts",
+      "title": "book detail error offers Try again instead of an endless spinner",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 2802,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "errors.spec.ts",
+      "title": "unknown book id says it was not found",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 2580,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "errors.spec.ts",
+      "title": "going offline shows the offline banner and an offline-specific search error",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 3010,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "errors.spec.ts",
+      "title": "ISBN: not in catalogue vs lookup failure are different messages",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 3078,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "errors.spec.ts",
+      "title": "author search: empty result and failure are both explained",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 2985,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "gallery.spec.ts",
+      "title": "screens",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 7705,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "gallery.spec.ts",
+      "title": "error state",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 2920,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "gallery.spec.ts",
+      "title": "screens",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 8242,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "gallery.spec.ts",
+      "title": "error state",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 3272,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "readinglist.spec.ts",
+      "title": "add books from the detail page and see them on My Books with counts",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 5097,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "readinglist.spec.ts",
+      "title": "move a book to another shelf and remove it",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 2736,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "readinglist.spec.ts",
+      "title": "the list survives a reload (localStorage)",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 4949,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "readinglist.spec.ts",
+      "title": "export is disabled when the list is empty",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 2513,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "readinglist.spec.ts",
+      "title": "export downloads a JSON file with the saved books",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 7438,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "readinglist.spec.ts",
+      "title": "import restores a list in a fresh browser, merge reports what changed",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 7663,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "readinglist.spec.ts",
+      "title": "importing a bad file shows an error and keeps the existing list",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 4997,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "readinglist.spec.ts",
+      "title": "invalid entries inside a valid export are skipped and counted",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 2534,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "readinglist.spec.ts",
+      "title": "add books from the detail page and see them on My Books with counts",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 5252,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "readinglist.spec.ts",
+      "title": "move a book to another shelf and remove it",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 2882,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "readinglist.spec.ts",
+      "title": "the list survives a reload (localStorage)",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 5094,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "readinglist.spec.ts",
+      "title": "export is disabled when the list is empty",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 2586,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "readinglist.spec.ts",
+      "title": "export downloads a JSON file with the saved books",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 7527,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "readinglist.spec.ts",
+      "title": "import restores a list in a fresh browser, merge reports what changed",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 7764,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "readinglist.spec.ts",
+      "title": "importing a bad file shows an error and keeps the existing list",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 5093,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "readinglist.spec.ts",
+      "title": "invalid entries inside a valid export are skipped and counted",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 2620,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "search.spec.ts",
+      "title": "home shows the default search with a total count and first page of 30",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 2713,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "search.spec.ts",
+      "title": "searching by title shows matching books",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 2744,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "search.spec.ts",
+      "title": "a search with no matches shows an empty state, not a blank page",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 2795,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "search.spec.ts",
+      "title": "\"Load more\" fetches the next pages until everything is loaded",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 2751,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "search.spec.ts",
+      "title": "language filter is sent to the API and applies to the whole result set",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 2737,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "search.spec.ts",
+      "title": "earliest-year filter narrows results across pages",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 3481,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "search.spec.ts",
+      "title": "an invalid year is ignored and explained",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 3579,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "search.spec.ts",
+      "title": "typing a year sends one request after typing stops, and keeps focus",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 3806,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "search.spec.ts",
+      "title": "subject filter, combined filters and reset",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 2797,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "search.spec.ts",
+      "title": "filters that match nothing show an empty state with a reset button",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 3487,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "search.spec.ts",
+      "title": "\"Newest first\" asks the API for newest and shows newest first",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 2712,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "search.spec.ts",
+      "title": "\"Title A-Z\" sorts the loaded books without another API request",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 2718,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "search.spec.ts",
+      "title": "a new search clears the filters",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 2805,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "search.spec.ts",
+      "title": "home shows the default search with a total count and first page of 30",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 2979,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "search.spec.ts",
+      "title": "searching by title shows matching books",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 3042,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "search.spec.ts",
+      "title": "a search with no matches shows an empty state, not a blank page",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 3049,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "search.spec.ts",
+      "title": "\"Load more\" fetches the next pages until everything is loaded",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 2907,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "search.spec.ts",
+      "title": "language filter is sent to the API and applies to the whole result set",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 2895,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "search.spec.ts",
+      "title": "earliest-year filter narrows results across pages",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 3676,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "search.spec.ts",
+      "title": "an invalid year is ignored and explained",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 3788,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "search.spec.ts",
+      "title": "typing a year sends one request after typing stops, and keeps focus",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 4024,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "search.spec.ts",
+      "title": "subject filter, combined filters and reset",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 3026,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "search.spec.ts",
+      "title": "filters that match nothing show an empty state with a reset button",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 3660,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "search.spec.ts",
+      "title": "\"Newest first\" asks the API for newest and shows newest first",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 2908,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "search.spec.ts",
+      "title": "\"Title A-Z\" sorts the loaded books without another API request",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 2945,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "search.spec.ts",
+      "title": "a new search clears the filters",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 2998,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    }
+  ],
+  "byFile": [
+    {
+      "name": "detail-isbn-theme.spec.ts",
+      "passed": 14,
+      "failed": 0,
+      "flaky": 0,
+      "skipped": 0,
+      "ms": 45934
+    },
+    {
+      "name": "errors.spec.ts",
+      "passed": 18,
+      "failed": 0,
+      "flaky": 0,
+      "skipped": 0,
+      "ms": 61761
+    },
+    {
+      "name": "gallery.spec.ts",
+      "passed": 4,
+      "failed": 0,
+      "flaky": 0,
+      "skipped": 0,
+      "ms": 22139
+    },
+    {
+      "name": "readinglist.spec.ts",
+      "passed": 16,
+      "failed": 0,
+      "flaky": 0,
+      "skipped": 0,
+      "ms": 76745
+    },
+    {
+      "name": "search.spec.ts",
+      "passed": 26,
+      "failed": 0,
+      "flaky": 0,
+      "skipped": 0,
+      "ms": 81022
+    }
+  ],
+  "byProject": [
+    {
+      "name": "desktop",
+      "passed": 39,
+      "failed": 0,
+      "flaky": 0,
+      "skipped": 0,
+      "ms": 140403
+    },
+    {
+      "name": "mobile",
+      "passed": 39,
+      "failed": 0,
+      "flaky": 0,
+      "skipped": 0,
+      "ms": 147198
+    }
+  ],
+  "slowest": [
+    {
+      "file": "errors.spec.ts",
+      "title": "a slow search shows a \"responding slowly\" notice and then the results",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 8527,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "errors.spec.ts",
+      "title": "a slow search shows a \"responding slowly\" notice and then the results",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 8333,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "gallery.spec.ts",
+      "title": "screens",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 8242,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "readinglist.spec.ts",
+      "title": "import restores a list in a fresh browser, merge reports what changed",
+      "project": "mobile",
+      "status": "passed",
+      "duration": 7764,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    },
+    {
+      "file": "gallery.spec.ts",
+      "title": "screens",
+      "project": "desktop",
+      "status": "passed",
+      "duration": 7705,
+      "retries": 0,
+      "error": "",
+      "shots": []
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-10-16T12:53:57.459Z",
+      "total": 78,
+      "passed": 78,
+      "failed": 0,
+      "flaky": 0,
+      "durationMs": 126745,
+      "appCommit": "3e12dee"
+    },
+    {
+      "date": "2026-10-16T13:10:45.645Z",
+      "total": 78,
+      "passed": 78,
+      "failed": 0,
+      "flaky": 0,
+      "durationMs": 152839,
+      "appCommit": "3e12dee"
+    },
+    {
+      "date": "2026-10-17T06:28:34.767Z",
+      "total": 78,
+      "passed": 78,
+      "failed": 0,
+      "flaky": 0,
+      "durationMs": 152022,
+      "appCommit": "3e12dee"
+    },
+    {
+      "date": "2026-10-18T01:59:14.696Z",
+      "total": 78,
+      "passed": 78,
+      "failed": 0,
+      "flaky": 0,
+      "durationMs": 155627,
+      "appCommit": "3f909d9"
+    },
+    {
+      "date": "2026-10-18T03:12:09.331Z",
+      "total": 78,
+      "passed": 78,
+      "failed": 0,
+      "flaky": 0,
+      "durationMs": 154673,
+      "appCommit": "3f909d9"
+    },
+    {
+      "date": "2026-10-18T03:17:48.673Z",
+      "total": 78,
+      "passed": 78,
+      "failed": 0,
+      "flaky": 0,
+      "durationMs": 145929,
+      "appCommit": "3f909d9"
+    },
+    {
+      "date": "2026-10-18T06:53:39.701Z",
+      "total": 78,
+      "passed": 78,
+      "failed": 0,
+      "flaky": 0,
+      "durationMs": 145628,
+      "appCommit": "3f909d9"
+    },
+    {
+      "date": "2026-10-19T07:13:07.871Z",
+      "total": 78,
+      "passed": 78,
+      "failed": 0,
+      "flaky": 0,
+      "durationMs": 144918,
+      "appCommit": "3f909d9"
+    },
+    {
+      "date": "2026-10-20T07:00:49.099Z",
+      "total": 78,
+      "passed": 78,
+      "failed": 0,
+      "flaky": 0,
+      "durationMs": 148041,
+      "appCommit": "3f909d9"
+    },
+    {
+      "date": "2026-10-21T06:54:26.186Z",
+      "total": 78,
+      "passed": 78,
+      "failed": 0,
+      "flaky": 0,
+      "durationMs": 148581,
+      "appCommit": "3f909d9"
+    },
+    {
+      "date": "2026-10-22T00:25:08.671Z",
+      "total": 78,
+      "passed": 78,
+      "failed": 0,
+      "flaky": 0,
+      "durationMs": 152527,
+      "appCommit": "3f909d9"
+    },
+    {
+      "date": "2026-10-22T00:36:08.976Z",
+      "total": 78,
+      "passed": 78,
+      "failed": 0,
+      "flaky": 0,
+      "durationMs": 151656,
+      "appCommit": "3f909d9"
+    },
+    {
+      "date": "2026-10-22T05:11:13.376Z",
+      "total": 78,
+      "passed": 78,
+      "failed": 0,
+      "flaky": 0,
+      "durationMs": 155417,
+      "appCommit": "3f909d9"
+    },
+    {
+      "date": "2026-10-22T06:58:52.515Z",
+      "total": 78,
+      "passed": 78,
+      "failed": 0,
+      "flaky": 0,
+      "durationMs": 152585,
+      "appCommit": "3f909d9"
+    },
+    {
+      "date": "2026-10-23T06:51:11.039Z",
+      "total": 78,
+      "passed": 78,
+      "failed": 0,
+      "flaky": 0,
+      "durationMs": 144723,
+      "appCommit": "3f909d9"
+    },
+    {
+      "date": "2026-10-24T06:47:37.060Z",
+      "total": 78,
+      "passed": 78,
+      "failed": 0,
+      "flaky": 0,
+      "durationMs": 151939,
+      "appCommit": "3f909d9"
+    },
+    {
+      "date": "2026-10-25T07:12:06.083Z",
+      "total": 78,
+      "passed": 78,
+      "failed": 0,
+      "flaky": 0,
+      "durationMs": 151297,
+      "appCommit": "3f909d9"
+    },
+    {
+      "date": "2026-10-26T07:19:44.410Z",
+      "total": 78,
+      "passed": 78,
+      "failed": 0,
+      "flaky": 0,
+      "durationMs": 147232,
+      "appCommit": "3f909d9"
+    },
+    {
+      "date": "2026-10-27T07:11:45.436Z",
+      "total": 78,
+      "passed": 78,
+      "failed": 0,
+      "flaky": 0,
+      "durationMs": 155247,
+      "appCommit": "3f909d9"
+    },
+    {
+      "date": "2026-10-28T07:50:42.522Z",
+      "total": 78,
+      "passed": 78,
+      "failed": 0,
+      "flaky": 0,
+      "durationMs": 145182,
+      "appCommit": "3f909d9"
+    },
+    {
+      "date": "2026-10-29T07:55:56.887Z",
+      "total": 78,
+      "passed": 78,
+      "failed": 0,
+      "flaky": 0,
+      "durationMs": 154815,
+      "appCommit": "3f909d9"
+    },
+    {
+      "date": "2026-10-30T07:58:17.797Z",
+      "total": 78,
+      "passed": 78,
+      "failed": 0,
+      "flaky": 0,
+      "durationMs": 149355,
+      "appCommit": "3f909d9"
+    },
+    {
+      "date": "2026-10-31T07:53:25.800Z",
+      "total": 78,
+      "passed": 78,
+      "failed": 0,
+      "flaky": 0,
+      "durationMs": 148354,
+      "appCommit": "3f909d9"
+    }
+  ],
+  "gallery": [
+    {
+      "file": "screens/gallery-desktop-dark-reading-list.png",
+      "label": "desktop dark reading list"
+    },
+    {
+      "file": "screens/gallery-desktop-filtered-search.png",
+      "label": "desktop filtered search"
+    },
+    {
+      "file": "screens/gallery-desktop-reading-list-export-import.png",
+      "label": "desktop reading list export import"
+    },
+    {
+      "file": "screens/gallery-desktop-search-error.png",
+      "label": "desktop search error"
+    },
+    {
+      "file": "screens/gallery-mobile-dark-reading-list.png",
+      "label": "mobile dark reading list"
+    },
+    {
+      "file": "screens/gallery-mobile-filtered-search.png",
+      "label": "mobile filtered search"
+    },
+    {
+      "file": "screens/gallery-mobile-reading-list-export-import.png",
+      "label": "mobile reading list export import"
+    },
+    {
+      "file": "screens/gallery-mobile-search-error.png",
+      "label": "mobile search error"
+    }
+  ]
+}

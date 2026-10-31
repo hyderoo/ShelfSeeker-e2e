@@ -1,0 +1,209 @@
+[
+  {
+    "date": "2026-10-16T12:53:57.459Z",
+    "total": 78,
+    "passed": 78,
+    "failed": 0,
+    "flaky": 0,
+    "durationMs": 126745,
+    "appCommit": "3e12dee"
+  },
+  {
+    "date": "2026-10-16T13:10:45.645Z",
+    "total": 78,
+    "passed": 78,
+    "failed": 0,
+    "flaky": 0,
+    "durationMs": 152839,
+    "appCommit": "3e12dee"
+  },
+  {
+    "date": "2026-10-17T06:28:34.767Z",
+    "total": 78,
+    "passed": 78,
+    "failed": 0,
+    "flaky": 0,
+    "durationMs": 152022,
+    "appCommit": "3e12dee"
+  },
+  {
+    "date": "2026-10-18T01:59:14.696Z",
+    "total": 78,
+    "passed": 78,
+    "failed": 0,
+    "flaky": 0,
+    "durationMs": 155627,
+    "appCommit": "3f909d9"
+  },
+  {
+    "date": "2026-10-18T03:12:09.331Z",
+    "total": 78,
+    "passed": 78,
+    "failed": 0,
+    "flaky": 0,
+    "durationMs": 154673,
+    "appCommit": "3f909d9"
+  },
+  {
+    "date": "2026-10-18T03:17:48.673Z",
+    "total": 78,
+    "passed": 78,
+    "failed": 0,
+    "flaky": 0,
+    "durationMs": 145929,
+    "appCommit": "3f909d9"
+  },
+  {
+    "date": "2026-10-18T06:53:39.701Z",
+    "total": 78,
+    "passed": 78,
+    "failed": 0,
+    "flaky": 0,
+    "durationMs": 145628,
+    "appCommit": "3f909d9"
+  },
+  {
+    "date": "2026-10-19T07:13:07.871Z",
+    "total": 78,
+    "passed": 78,
+    "failed": 0,
+    "flaky": 0,
+    "durationMs": 144918,
+    "appCommit": "3f909d9"
+  },
+  {
+    "date": "2026-10-20T07:00:49.099Z",
+    "total": 78,
+    "passed": 78,
+    "failed": 0,
+    "flaky": 0,
+    "durationMs": 148041,
+    "appCommit": "3f909d9"
+  },
+  {
+    "date": "2026-10-21T06:54:26.186Z",
+    "total": 78,
+    "passed": 78,
+    "failed": 0,
+    "flaky": 0,
+    "durationMs": 148581,
+    "appCommit": "3f909d9"
+  },
+  {
+    "date": "2026-10-22T00:25:08.671Z",
+    "total": 78,
+    "passed": 78,
+    "failed": 0,
+    "flaky": 0,
+    "durationMs": 152527,
+    "appCommit": "3f909d9"
+  },
+  {
+    "date": "2026-10-22T00:36:08.976Z",
+    "total": 78,
+    "passed": 78,
+    "failed": 0,
+    "flaky": 0,
+    "durationMs": 151656,
+    "appCommit": "3f909d9"
+  },
+  {
+    "date": "2026-10-22T05:11:13.376Z",
+    "total": 78,
+    "passed": 78,
+    "failed": 0,
+    "flaky": 0,
+    "durationMs": 155417,
+    "appCommit": "3f909d9"
+  },
+  {
+    "date": "2026-10-22T06:58:52.515Z",
+    "total": 78,
+    "passed": 78,
+    "failed": 0,
+    "flaky": 0,
+    "durationMs": 152585,
+    "appCommit": "3f909d9"
+  },
+  {
+    "date": "2026-10-23T06:51:11.039Z",
+    "total": 78,
+    "passed": 78,
+    "failed": 0,
+    "flaky": 0,
+    "durationMs": 144723,
+    "appCommit": "3f909d9"
+  },
+  {
+    "date": "2026-10-24T06:47:37.060Z",
+    "total": 78,
+    "passed": 78,
+    "failed": 0,
+    "flaky": 0,
+    "durationMs": 151939,
+    "appCommit": "3f909d9"
+  },
+  {
+    "date": "2026-10-25T07:12:06.083Z",
+    "total": 78,
+    "passed": 78,
+    "failed": 0,
+    "flaky": 0,
+    "durationMs": 151297,
+    "appCommit": "3f909d9"
+  },
+  {
+    "date": "2026-10-26T07:19:44.410Z",
+    "total": 78,
+    "passed": 78,
+    "failed": 0,
+    "flaky": 0,
+    "durationMs": 147232,
+    "appCommit": "3f909d9"
+  },
+  {
+    "date": "2026-10-27T07:11:45.436Z",
+    "total": 78,
+    "passed": 78,
+    "failed": 0,
+    "flaky": 0,
+    "durationMs": 155247,
+    "appCommit": "3f909d9"
+  },
+  {
+    "date": "2026-10-28T07:50:42.522Z",
+    "total": 78,
+    "passed": 78,
+    "failed": 0,
+    "flaky": 0,
+    "durationMs": 145182,
+    "appCommit": "3f909d9"
+  },
+  {
+    "date": "2026-10-29T07:55:56.887Z",
+    "total": 78,
+    "passed": 78,
+    "failed": 0,
+    "flaky": 0,
+    "durationMs": 154815,
+    "appCommit": "3f909d9"
+  },
+  {
+    "date": "2026-10-30T07:58:17.797Z",
+    "total": 78,
+    "passed": 78,
+    "failed": 0,
+    "flaky": 0,
+    "durationMs": 149355,
+    "appCommit": "3f909d9"
+  },
+  {
+    "date": "2026-10-31T07:53:25.800Z",
+    "total": 78,
+    "passed": 78,
+    "failed": 0,
+    "flaky": 0,
+    "durationMs": 148354,
+    "appCommit": "3f909d9"
+  }
+]
